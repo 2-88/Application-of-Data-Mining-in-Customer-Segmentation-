@@ -8,15 +8,14 @@ The objective of this project analyzes the lifetime value of customers of a mult
 ## Description of the dataset
 The dataset has nine columns namely Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country, and Amount. The Customer ID is Nominal with a 5-digit integral number that uniquely identifies each customer. The Date is Numeric and shows the day, month, year, and time when each transaction was recorded. The Description shows the name of the product.
 ## Data Pre-processing
-###Content of the dataset
+### Content of the dataset
 The dataset had 541910 rows and nine columns as visualized in the table below. 
 ![](![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(12).png)
  
 
 ### Visualization of the dataset
 Twenty most sold products of the business are shown in the chart below. White Hanging Heart-Light holder was the most sold product and Alarm Clock Bakelike Green was the least sold product.
- 
-Figure 1
+ ![](![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(13).png)
 
 ###Missing values
 To prepare the dataset for customer segmentation, an initial step involved data cleaning. During this initial cleaning process, the dataset was examined for missing values, and it revealed that there were 136,534 missing values in the dataset, as displayed in the output below.
