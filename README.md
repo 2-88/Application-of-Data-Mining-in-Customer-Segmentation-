@@ -10,7 +10,7 @@ The dataset has nine columns namely Invoice, StockCode, Description, Quantity, I
 ## Data Pre-processing
 ###Content of the dataset
 The dataset had 541910 rows and nine columns as visualized in the table below. 
-![](![](https://github.com/2-88/Data-Mart-Design-and-Implementation-of-OLAP-Queries-with-SQL/blob/main/Screenshot%20(5).png)
+![](![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(12).png)
  
 
 ### Visualization of the dataset
