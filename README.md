@@ -41,7 +41,7 @@ Recency measures how recent the transaction was, and the most recent date was st
 ### Creation of RFM variables- Recency, Frequency and Monetary value and Aggregating data by customer
 The SQL query below was used to create the variables Recency, Frequency and Monetary Value
  
-![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
+![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-11-07%20Google%20Colaboratory.png) 
 
 
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
