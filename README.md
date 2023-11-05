@@ -31,6 +31,8 @@ The data types were also checked as shown below
 ### Data Transformation
  All invoices without a customer ID were dropped. Invoices with zero prices as well as ones with invoice numbers containing the letter "C", showing a cancelled transaction were also dropped. Data was then aggregated by customers using customer ID.
 
+![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
+
 ## RFM Analysis
 RFM analysis requires the creation of three measures or scores namely recency, frequency, and monetary value, which together show the value of a customer. The customers are then segmented based on their scores for recency, frequency, and monetary value.
 Recency measures how recent the transaction was, and the most recent date was stored as the value of Recency. Frequency measures how many times a customer has transacted, and Monetary value measures the value of the item the customer acquires.
