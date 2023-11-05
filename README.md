@@ -19,10 +19,13 @@ Twenty most sold products of the business are shown in the chart below. White Ha
 
 ###Missing values
 To prepare the dataset for customer segmentation, an initial step involved data cleaning. During this initial cleaning process, the dataset was examined for missing values, and it revealed that there were 136,534 missing values in the dataset, as displayed in the output below.
+
+![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(14).png)
+
  
-###Checking data types
+### Checking data types
 The data types were also checked as shown below
- 
+![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(14).png) 
 
 ##RFM Analysis
 RFM analysis requires the creation of three measures or scores namely recency, frequency, and monetary value, which together show the value of a customer. The customers are then segmented based on their scores for recency, frequency, and monetary value.
