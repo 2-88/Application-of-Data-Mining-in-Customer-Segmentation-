@@ -33,15 +33,15 @@ The data types were also checked as shown below
 
 ![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
 
+
 ## RFM Analysis
 RFM analysis requires the creation of three measures or scores namely recency, frequency, and monetary value, which together show the value of a customer. The customers are then segmented based on their scores for recency, frequency, and monetary value.
 Recency measures how recent the transaction was, and the most recent date was stored as the value of Recency. Frequency measures how many times a customer has transacted, and Monetary value measures the value of the item the customer acquires.
 
 ### Creation of RFM variables- Recency, Frequency and Monetary value and Aggregating data by customer
-The SQL query below was used to create the variables Recency, Frequency and Monetary Value. All invoice numbers that contain the letter “C” showing cancelled transactions were dropped and the invoices with zero price were also dropped. Data was then grouped by customer ID. The SQL query is shown below:
+The SQL query below was used to create the variables Recency, Frequency and Monetary Value
  
-The output of the above query is shown in the table below.
- 
+![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
 
 
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
