@@ -29,7 +29,7 @@ The data types were also checked as shown below
 ![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%20(15).png) 
 
 ### Data Transformation
- All invoices without a customer ID were dropped. Invoices with zero prices as well as ones with invoice numbers containing the letter "C", showing a cancelled transaction were also dropped. Data was then aggregated by customers using customer ID.
+ All invoices without a customer ID were dropped. Invoices with zero prices as well as ones with invoice numbers containing the letter "C", showing a cancelled transaction were also dropped. Data was then aggregated by most recent date and grouped by customer using customer ID.
 
 ![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
 
