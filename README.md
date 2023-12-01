@@ -7,6 +7,7 @@ The objective of this project analyzes the lifetime value of customers of a mult
 
 ## Description of the dataset
 The dataset has nine columns namely Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country, and Amount. The Customer ID is Nominal with a 5-digit integral number that uniquely identifies each customer. The Date is Numeric and shows the day, month, year, and time when each transaction was recorded. The Description shows the name of the product.
+
 ## Data Pre-processing
 ### Content of the dataset
 The dataset had 541910 rows and nine columns as visualized in the table below. 
@@ -47,11 +48,11 @@ The SQL query below was used to create the variables Recency, Frequency and Mone
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
 The Recency values were changed to date format. There is also a requirement to transform them into numeric values that express the time gap between the transaction's initiation date and the date designated for analysis. To accomplish this, we introduce a reference date known as the "snapshot date," which aligns with the date meant for the analysis. By subtracting the initiation date from the snapshot date, we can calculate the number of days that have passed within the dataset's analysis period. The snapshot date is provided below for your reference.  
 
-###Aggregating data by each customer
+### Aggregating data by each customer
 Data is aggregated by each customer after obtaining the time passed. This is shown in the table below.
  
 
-##K-MEANS Clustering
+## K-MEANS Clustering
 The algorithm operates by assigning data points to clusters, grouping together data points that are near one another. To initiate the process, the algorithm necessitates the determination of the required number of clusters. It begins by selecting data points equal to the specified number of clusters as centroids and subsequently adds nearby data points to these centroids, forming clusters.
 Following this, the centroids are recalculated, and this iterative process continues until the data points can no longer be repositioned. Throughout this process, the algorithm considers both the distances between data points and the distances between clusters. This consideration ensures that there is no overlap or ambiguity in the assignment of data points to clusters. One advantage of the K-Means algorithm is that it is a data mining technique that explores the patterns in a data without necessarily knowing its labels. The RFM values were then used to perform the K-Means clustering to have the customers partitioned into different segments.
 K-Means clustering works if the dataset is normally distributed and has a mean 0 and variance 1. The algorithm also requires all missing values to be dropped. 
