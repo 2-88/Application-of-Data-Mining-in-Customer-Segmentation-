@@ -56,6 +56,7 @@ Data is aggregated by each customer after obtaining the time passed. This is sho
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture2.png).
  
 
+
 ## K-MEANS Clustering
 The algorithm operates by assigning data points to clusters, grouping together data points that are near one another. To initiate the process, the algorithm necessitates the determination of the required number of clusters. It begins by selecting data points equal to the specified number of clusters as centroids and subsequently adds nearby data points to these centroids, forming clusters.
 Following this, the centroids are recalculated, and this iterative process continues until the data points can no longer be repositioned. Throughout this process, the algorithm considers both the distances between data points and the distances between clusters. This consideration ensures that there is no overlap or ambiguity in the assignment of data points to clusters. One advantage of the K-Means algorithm is that it is a data mining technique that explores the patterns in a data without necessarily knowing its labels. The RFM values were then used to perform the K-Means clustering to have the customers partitioned into different segments.
