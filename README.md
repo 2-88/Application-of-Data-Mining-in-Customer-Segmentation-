@@ -47,6 +47,7 @@ The SQL query below was used to create the variables Recency, Frequency and Mone
 
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
 The Recency values were changed to date format. There is also a requirement to transform them into numeric values that express the time gap between the transaction's initiation date and the date designated for analysis. To accomplish this, we introduce a reference date known as the "snapshot date," which aligns with the date meant for the analysis. By subtracting the initiation date from the snapshot date, we can calculate the number of days that have passed within the dataset's analysis period. The snapshot date is provided below for your reference.  
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture1.png)
 
 ### Aggregating data by each customer
 Data is aggregated by each customer after obtaining the time passed. This is shown in the table below.
