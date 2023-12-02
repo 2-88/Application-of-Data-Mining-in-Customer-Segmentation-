@@ -92,6 +92,8 @@ From the Distribution Analysis below, the Recency and Monetary Value have longer
 #### Normalization of the dataset
 Because K-Means clustering works with only normally distributed data and the non-linear data will require normalization, the SciPy.stats.boxcox() function is used to transform the non-linear distribution to achieve a normal distribution. The normal distribution follows the Pareto Principle which assumes that 80% of the output comes from the 20% of all causes. That is, the best comes from the top 20%. The transformation after the boxcox makes the data now look bell-shaped and normally distributed as shown below.
 
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture7.png).
+
  
 
 ### Determining the number of clusters for K-Means
