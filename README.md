@@ -79,7 +79,7 @@ The algorithm operates by assigning data points to clusters, grouping together d
 Following this, the centroids are recalculated, and this iterative process continues until the data points can no longer be repositioned. Throughout this process, the algorithm considers both the distances between data points and the distances between clusters. This consideration ensures that there is no overlap or ambiguity in the assignment of data points to clusters. One advantage of the K-Means algorithm is that it is a data mining technique that explores the patterns in a data without necessarily knowing its labels. The RFM values were then used to perform the K-Means clustering to have the customers partitioned into different segments.
 K-Means clustering works if the dataset is normally distributed and has a mean 0 and variance 1. The algorithm also requires all missing values to be dropped. 
 
-### Checking for Mean and Standard Deviation of the dataset
+### Checking the Mean and Standard Deviation of the dataset
 The dataset was standardized using the standardscaler function scaler = StandardScaler (). After the standardization it is asserted that it has a mean of 0 and a variance of 1 and the result is shown below.
 
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture%208.png).
