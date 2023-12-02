@@ -1,5 +1,5 @@
 # Multinational-E-commerce- Retail-Customer-Segmentation-with-Association-Rule-Mining-(RFM Analysis)-and-Data-Mining-(K-Means Clustering)-using-SQL-and-Python
-In this project RFM Analysis with SQL and K-Means Clustering with Python was used to segment the customers of an e-commerce retail store. Marketing strategies were developed to increase customer lifetime value based on the purchasing beviour of customer segments identified. 
+In this project RFM Analysis with SQL and K-Means Clustering with Python was used to segment the customers of an e-commerce retail store. Marketing strategies were developed to increase the customers lifetime value based on the purchasing beviour of their segments. 
 
 ## Methodology 
 
