@@ -82,7 +82,7 @@ K-Means clustering works if the dataset is normally distributed and has a mean 0
 ### Checking for Mean and Standard Deviation of the dataset
 The dataset was standardized using the standardscaler function scaler = StandardScaler (). After the standardization it is asserted that it has a mean of 0 and a variance of 1 and the result is shown below.
 
-![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture7.png).
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture%208.png).
  
 ### Checking the distribution of the dataset
 #### Distribution of the dataset before normalization
