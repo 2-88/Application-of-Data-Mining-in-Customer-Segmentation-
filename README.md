@@ -98,20 +98,15 @@ The Elbow method was used to determine the optimal number of clusters for the K-
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture5.png).
  
 
+### List of customers and their segments based on their recency, frequency, and monetary value
+The table below is the outcome of the customer segmentation showing Customer IDs and the segments/ clusters they belong to. 
+
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture5.png). 
+
+
 ### The outcome of the K-Means Clustering and the Analysis of the Clusters
 Cluster 1 had the highest number of customers followed by Cluster 0 and Cluster 2 as shown below.
 In summary, Cluster 0 had 293 Customer 1Ds, Cluster 1 had 358 Customer IDs and Cluster 2 had 279 Customer ID as visualized in figure 7 below.  The mean values of the recency, frequency, and monetary value for each of the clusters are also shown below.
-
- 
- 
-Mean:
-Table 7
- 
-
-### List of customers and their segments based on their recency, frequency, and monetary value
-Table 8 below is the outcome of the customer segmentation showing Customer IDs and their segments/ clusters and the table can be queried for which segment an individual customer belongs to.
-Table 8
- 
 
 
 ## Customer Lifetime Value
