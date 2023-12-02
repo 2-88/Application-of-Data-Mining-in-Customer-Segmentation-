@@ -79,15 +79,15 @@ The algorithm operates by assigning data points to clusters, grouping together d
 Following this, the centroids are recalculated, and this iterative process continues until the data points can no longer be repositioned. Throughout this process, the algorithm considers both the distances between data points and the distances between clusters. This consideration ensures that there is no overlap or ambiguity in the assignment of data points to clusters. One advantage of the K-Means algorithm is that it is a data mining technique that explores the patterns in a data without necessarily knowing its labels. The RFM values were then used to perform the K-Means clustering to have the customers partitioned into different segments.
 K-Means clustering works if the dataset is normally distributed and has a mean 0 and variance 1. The algorithm also requires all missing values to be dropped. 
 
-#Checking for Mean and Standard Deviation of the dataset
+### Checking for Mean and Standard Deviation of the dataset
 The dataset was standardized using the standardscaler function scaler = StandardScaler (). After the standardization it is asserted that it has a mean of 0 and a variance of 1 and the result is shown below.
  
-##Checking the distribution of the dataset
-###Distribution of the dataset before normalization
+### Checking the distribution of the dataset
+#### Distribution of the dataset before normalization
 From the Distribution Analysis below, the Recency and Monetary Value have longer tail on the right side and the Frequency has longer tail on the left, which showed they were not normally distributed. The distribution of Monetary Value showed the distribution was skewed to the left which means customers with lower Monetary Value were the majority. The distribution of the Recency showed most of the customers were new and the distribution of Frequency showed most of the customers do not make purchases frequently.
   
  	
-### Normalization of the dataset
+#### Normalization of the dataset
 Because K-Means clustering works with only normally distributed data and the non-linear data will require normalization, the SciPy.stats.boxcox() function is used to transform the non-linear distribution to achieve a normal distribution. The normal distribution follows the Pareto Principle which assumes that 80% of the output comes from the 20% of all causes. That is, the best comes from the top 20%. The transformation after the boxcox makes the data now look bell-shaped and normally distributed as shown below.
 
  
@@ -114,9 +114,9 @@ Table 8
 
 ## Customer Lifetime Value
  
-Figure 7
+![]()
 
-The snake plot in figure 5 above is used to show the value of customers in the three clusters identified with the K-Means across Recency of transactions, Frequency of purchases and the Monetary Value. From the snake plot, customers in Cluster 0 had the highest Recency, the second highest Monetary Value and a very low frequency. Customers in Cluster 1 had the second highest Recency, the highest Monetary Value, and the highest Frequency. Customers in Cluster 2 had the lowest Recency and Monetary Value as well as a very low Frequency.
+The snake plot above is used to show the value of customers in the three clusters identified with the K-Means across Recency of transactions, Frequency of purchases and the Monetary Value. From the snake plot, customers in Cluster 0 had the highest Recency, the second highest Monetary Value and a very low frequency. Customers in Cluster 1 had the second highest Recency, the highest Monetary Value, and the highest Frequency. Customers in Cluster 2 had the lowest Recency and Monetary Value as well as a very low Frequency.
 ### Proposed marketing strategy based on K-Means Clustering/ Segmentation
 The behavioral pattern of customers in cluster/ segment 0 shows they are new customers. They had purchased a lot of products recently and they are moderately high spenders and the number of times they have transacted with the business was low. For this segment the Marketing Department must come up with customer retention strategies like promotions in the form of a membership card with discounts, after-sales delivery and sending the adverts for new products or ones they have not bought yet. Market basket analysis could be used to identify the products such segment of customers buys together.
 Customers in cluster 1 had low recency, very high monetary value, and very high frequency. Per the behavioral pattern of these customers, they have not been purchasing a lot of products like they use to do although this group of customers use to be the business’ largest spender group. They used to make a lot of purchases in the past. The Marketing Department must be concerned about this group of customers because the business has been losing them recently. They are either unhappy with the services or have found a better offer from a competitor. There is the need for the Marketing Department to carry out a competitor survey, especially about pricing of products and offers from the competitors.
