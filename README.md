@@ -95,7 +95,7 @@ Because K-Means clustering works with only normally distributed data and the non
 ### Determining the number of clusters for K-Means
 The Elbow method was used to determine the optimal number of clusters for the K-Means. The optimal number of clusters is arrived at where the graph forms an elbow. The number of clusters obtained using this method was 3 as shown below. Hence, K=3.
 
-![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture5.png}.
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture5.png).
  
 
 ### The outcome of the K-Means Clustering and the Analysis of the Clusters
