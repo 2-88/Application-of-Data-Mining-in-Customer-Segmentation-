@@ -35,6 +35,7 @@ The data types were also checked as shown below
 ![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
 
 The ouput of the above query is shown below.
+
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture3.png).
 
 
