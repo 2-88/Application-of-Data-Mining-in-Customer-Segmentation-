@@ -55,7 +55,7 @@ The Recency values were changed to date format. There is also a requirement to t
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture1.png)
 
 ### Aggregating data by each customer
-Data is aggregated by each customer after obtaining the time passed. This is shown in the table below.
+Data is aggregated by each customer after obtaining the time passed as shown in the table below.
 
 ![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture2.png).
  
