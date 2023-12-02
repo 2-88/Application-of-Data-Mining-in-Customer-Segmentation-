@@ -34,6 +34,9 @@ The data types were also checked as shown below
 
 ![]( https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-04-05%20Google%20Colaboratory(1).png) 
 
+The ouput of the above query is shown below.
+![]().
+
 
 ## RFM Analysis
 RFM analysis requires the creation of three measures or scores namely recency, frequency, and monetary value, which together show the value of a customer. The customers are then segmented based on their scores for recency, frequency, and monetary value.
