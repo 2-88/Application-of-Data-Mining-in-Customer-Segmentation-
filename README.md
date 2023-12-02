@@ -1,5 +1,5 @@
 # Multinational-E-commerce- Retail-Customer-Segmentation-with-Association-Rule-Mining-(RFM Analysis)-and-Data-Mining-(K-Means Clustering)-using-SQL-and-Python
-In this project I used RFM Analysis with SQL and K-Means Clustering with Python to segment the customers of an e-commerce retail store. Marketing strategies were developed to increase customer lifetime value based on the purchasing beviour of customer segments identified. 
+In this project RFM Analysis with SQL and K-Means Clustering with Python was used to segment the customers of an e-commerce retail store. Marketing strategies were developed to increase customer lifetime value based on the purchasing beviour of customer segments identified. 
 
 ## Methodology 
 
@@ -81,6 +81,8 @@ K-Means clustering works if the dataset is normally distributed and has a mean 0
 
 ### Checking for Mean and Standard Deviation of the dataset
 The dataset was standardized using the standardscaler function scaler = StandardScaler (). After the standardization it is asserted that it has a mean of 0 and a variance of 1 and the result is shown below.
+
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture7.png).
  
 ### Checking the distribution of the dataset
 #### Distribution of the dataset before normalization
