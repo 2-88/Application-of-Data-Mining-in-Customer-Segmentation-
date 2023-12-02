@@ -114,7 +114,7 @@ Table 8
 
 ## Customer Lifetime Value
  
-![]()
+![](https://github.com/2-88/Application-of-Data-Mining-in-E-Commerce-Customer-Segmentation-/blob/main/Picture4.png)
 
 The snake plot above is used to show the value of customers in the three clusters identified with the K-Means across Recency of transactions, Frequency of purchases and the Monetary Value. From the snake plot, customers in Cluster 0 had the highest Recency, the second highest Monetary Value and a very low frequency. Customers in Cluster 1 had the second highest Recency, the highest Monetary Value, and the highest Frequency. Customers in Cluster 2 had the lowest Recency and Monetary Value as well as a very low Frequency.
 ### Proposed marketing strategy based on K-Means Clustering/ Segmentation
