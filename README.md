@@ -57,6 +57,8 @@ The SQL query below was used to create the variables Recency, Frequency and Mone
  
 ![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-11-07%20Google%20Colaboratory.png) 
 
+The Recent_Date column of the data was renamed as Recency, Number_of_purchases as Frequency and Amount as Monetary value.
+
 
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
 The Recency values were changed to date format. There is also a requirement to transform them into numeric values that express the time gap between the transaction's initiation date and the date designated for analysis. To accomplish this, we introduce a reference date known as the "snapshot date," which aligns with the date meant for the analysis. By subtracting the initiation date from the snapshot date, we can calculate the number of days that have passed within the dataset's analysis period. The snapshot date is provided below for your reference.  
