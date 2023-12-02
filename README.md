@@ -57,7 +57,7 @@ The SQL query below was used to create the variables Recency, Frequency and Mone
  
 ![](https://github.com/2-88/Application-of-Data-Mining-in-Customer-Segmentation-/blob/main/Screenshot%202023-11-05%20at%2015-11-07%20Google%20Colaboratory.png) 
 
-The Recent_Date column of the data was renamed as Recency, Number_of_purchases as Frequency and Amount as Monetary value.
+The Recent_date column of the data was renamed as Recency, Number_of_purchases as Frequency and Amount as Monetary value.
 
 
 ### Changing Recency from object datatype to date-time format and creating a date variable that records recency, a snapshot date and the estimation of the days passed
